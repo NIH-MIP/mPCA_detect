@@ -7,7 +7,7 @@ output: qupath json, probability map
 
 
 
-usage:
+# usage: python detection_inference_cluster.py 
 
 [required] users should pass one of the following arguments:
 
@@ -22,3 +22,6 @@ usage:
 
     --save_location "/path/to/save/outputs" will default to "./output"
     
+
+
+# creating environment
