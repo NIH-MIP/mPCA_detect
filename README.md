@@ -25,3 +25,19 @@ output: qupath json, probability map
 
 
 # creating environment
+
+conda create -n mpca_detect python=3.6 numpy scipy
+
+conda install -c bioconda openslide
+
+pip install openslide-python
+
+conda install -c fastchan fastai
+
+conda install scikit-image
+
+conda install -c conda-forge opencv
+
+pip install Shapely
+
+pip install geojson
