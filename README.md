@@ -15,7 +15,7 @@ output: qupath json, probability map
     
     --by_folder "/path/to/folder" folder path to WSI files, does not search recursively
     
-    --by_image "/path/to/image.tif" full filepath for openslide compatible WSI
+    --single_image "/path/to/image.tif" full filepath for openslide compatible WSI
 
 
 [optional] 
